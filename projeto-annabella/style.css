@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #D2D3C1ff;
+    --cor2: rgb(139, 139, 131);
+    --cor3: rgb(246, 247, 235);
+}
+
+body{
+    background-image: url(imagens/fundo.png);
+    background-color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    background-color: var(--cor1);
+}
+
+header img{
+    max-width: 100%;
+}
+
+header nav{
+    padding: 30px 30px 30px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(47, 90, 122);
+}
+
+main{
+    background-color: var(--cor3);
+    padding: 10px 10px 20px 10px;
+}
+
+main h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--cor2);
+    font-weight: bolder;
+}
+
+main p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.fundoimg img{
+    border: 10px solid var(--cor1);
+    max-width: 100%;
+}
+
+.mt{
+    font-weight: normal;
+}
+
+#home header nav .home, #bio header nav .bio, #campanhas header nav .campanhas, #contato header nav .contato{
+    color: var(--cor2);
+}
